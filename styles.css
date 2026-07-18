@@ -87,6 +87,29 @@ body {
   animation: rotateOrbit 7s linear infinite;
 }
 
+.jupiter {
+  overflow: hidden;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 17%;
+}
+
+.jupiter-orbit {
+  height: 380px;
+  width: 380px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 12%;
+  left: 31%;
+  animation: rotateOrbit 8s linear infinite;
+}
+
 /* img elements */
 #sun {
   height: inherit;
@@ -124,11 +147,26 @@ body {
   position: absolute;
 }
 
+#jupiter {
+  height: 50px;
+  transform: scale(1.07);
+  animation: rotatePlanet 8s linear infinite;
+}
+
 @keyframes rotateOrbit {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes rotatePlanet {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
   }
 }
