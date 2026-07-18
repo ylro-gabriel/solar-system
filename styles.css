@@ -9,6 +9,8 @@ body {
   justify-content: center;
   align-content: center;
   padding-top: 20px;
+  overflow: hidden;
+  background-color: black;
 }
 
 .space {
@@ -97,6 +99,7 @@ body {
   align-items: center;
   position: absolute;
   top: 17%;
+  z-index: 1;
 }
 
 .jupiter-orbit {
@@ -108,6 +111,40 @@ body {
   top: 12%;
   left: 31%;
   animation: rotateOrbit 8s linear infinite;
+  z-index: 1;
+}
+
+.saturn-orbit {
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  border: 2px solid blue;
+  position: absolute;
+  animation: rotateOrbit 10s linear infinite;
+  top: 5%;
+  left: 27.5%;
+}
+
+.uranus-orbit {
+  height: 470px;
+  width: 470px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 3%;
+  left: 26.5%;
+  animation: rotateOrbit 11s linear infinite;
+}
+
+.neptune-orbit {
+  height: 510px;
+  width: 510px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 1%;
+  left: 25%;
+  animation: rotateOrbit 11s linear infinite;
 }
 
 /* img elements */
@@ -151,6 +188,31 @@ body {
   height: 50px;
   transform: scale(1.07);
   animation: rotatePlanet 8s linear infinite;
+}
+
+#saturn {
+  height: 55px;
+  border-radius: 40%;
+  position: absolute;
+  top: 12%;
+  animation: rotatePlanet 10s linear infinite;
+  z-index: 0;
+}
+
+#uranus {
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  top: 30%;
+  animation: rotatePlanet 11s linear infinite;
+}
+
+#neptune {
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  top: 30%;
+  animation: rotatePlanet 13s linear infinite;
 }
 
 @keyframes rotateOrbit {
