@@ -56,7 +56,6 @@ body {
 .earth-orbit {
   height: 250px;
   width: 250px;
-
   border-radius: 50%;
   position: absolute;
   top: 25%;
@@ -79,7 +78,6 @@ body {
 .mars-orbit {
   height: 300px;
   width: 300px;
-
   border-radius: 50%;
   position: absolute;
   top: 20%;
@@ -103,7 +101,6 @@ body {
 .jupiter-orbit {
   height: 380px;
   width: 380px;
-
   border-radius: 50%;
   position: absolute;
   top: 12%;
@@ -116,7 +113,6 @@ body {
   height: 450px;
   width: 450px;
   border-radius: 50%;
-
   position: absolute;
   animation: rotateOrbit 10s linear infinite;
   top: 5%;
@@ -126,7 +122,6 @@ body {
 .uranus-orbit {
   height: 470px;
   width: 470px;
-
   border-radius: 50%;
   position: absolute;
   top: 3%;
@@ -137,12 +132,11 @@ body {
 .neptune-orbit {
   height: 510px;
   width: 510px;
-
   border-radius: 50%;
   position: absolute;
   top: -1%;
   left: 24.5%;
-  animation: rotateOrbit 11s linear infinite;
+  animation: rotateOrbit 13s linear infinite;
 }
 
 /* img elements */
