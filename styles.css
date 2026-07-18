@@ -152,6 +152,7 @@ body {
   border-radius: 50%;
   position: absolute;
   top: 30px;
+  animation: rotatePlanet 3s linear infinite;
 }
 
 #venus {
@@ -161,6 +162,7 @@ body {
   border-radius: 50%;
   position: absolute;
   top: 15%;
+  animation: rotatePlanet 5s linear infinite;
 }
 
 #earth {
@@ -169,6 +171,7 @@ body {
   border-radius: 100%;
   position: absolute;
   top: 25%;
+  animation: rotatePlanet 6s linear infinite;
 }
 #mars {
   height: 20px;
