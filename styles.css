@@ -39,7 +39,7 @@ body {
   left: 42.5%;
   /* transform: translate(-50%, -50%); */
   border-radius: 50%;
-  animation: rotateOrbit 5s linear infinite;
+  animation: rotateOrbit 3s linear infinite;
 }
 
 .venus-orbit {
