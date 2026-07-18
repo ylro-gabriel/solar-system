@@ -53,6 +53,40 @@ body {
   animation: rotateOrbit 5s linear infinite;
 }
 
+.earth-orbit {
+  height: 250px;
+  width: 250px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 37.5%;
+  animation: rotateOrbit 6s linear infinite;
+}
+
+.mars {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mars-orbit {
+  height: 300px;
+  width: 300px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  animation: rotateOrbit 7s linear infinite;
+}
+
 /* img elements */
 #sun {
   height: inherit;
@@ -75,6 +109,19 @@ body {
   border-radius: 50%;
   position: absolute;
   top: 15%;
+}
+
+#earth {
+  height: 22px;
+  width: 22px;
+  border-radius: 100%;
+  position: absolute;
+  top: 25%;
+}
+#mars {
+  height: 20px;
+  transform: scale(1.5);
+  position: absolute;
 }
 
 @keyframes rotateOrbit {
